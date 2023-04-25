@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import './style.css'
 
 class App extends Component {
   render() {
     return (
-      <p>Hello world!</p>
+      <p className="title">By Maria Angelina Bonilla</p>
     );
   }
 }
